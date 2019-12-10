@@ -63,21 +63,24 @@ I want to prevent landing when weather is stormy
 
 | Methods        | Description                                            |
 |----------------|--------------------------------------------------------|
-| | |
+| .planes | returns the airport hanger containing all the planes that have landed |
+| .clearForLanding | throws an error if a plane tries to land in stormy weather conditions.|
+| .clearForTakeOff | throws an error if a plane tries to take off in stormy weather conditions |
 
 
 ### Plane
 
 | Methods        | Description                                            |
 |----------------|--------------------------------------------------------|
-|||
+| .land(airport) | signals a Plane object to land in a give airport, the airport will then clear the plane for landing if weather conditions are not stormy |
+| .takeoff | signals a Plane object to takeoff from it's current airport, the airport will then clear the plane for take off if weather conditions are not stormy |
 
 
 ### Weather
 
 | Methods        | Description                                            |
 |----------------|--------------------------------------------------------|
-|||
+| .isStormy | returns true if the weather conditions are stormy |
 
 ## <a name="Feature Test">Feature Tests</a>
 
