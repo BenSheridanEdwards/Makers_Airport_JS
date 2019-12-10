@@ -34,5 +34,4 @@ describe("Airport", function() {
       expect(function(){ airport.clearForTakeOff(plane); }).toThrowError('cannot takeoff during a storm');
     });
   });
-
 });
