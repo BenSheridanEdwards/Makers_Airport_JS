@@ -1,11 +1,13 @@
+'use strict';
+
 describe("Airport", function() {
   var airport;
-  var plane; 
-  var weather;
 
   beforeEach(function() {
     airport = new Airport();
-    plane = new Plane();
-    weather = new Weather();
+  });
+
+  it('has no planes in the hanger by default', function(){
+    expect(airport.hanger()).toEqual([]);
   });
 });
