@@ -18,7 +18,7 @@ As my cohort at Makers transitions from learning Ruby to JavaScript, we're been 
 Clone the repository from github then change directory into it.
 
 ```
-$ git clone git@github.com:BenSheridanEdwards/Makers_FizzBuzz_JavaScript.git
+$ git clone git@github.com:BenSheridanEdwards/Makers_Airport_JavaScript.git
 $ cd Makers_Airport_JavaScript
 ```
 
